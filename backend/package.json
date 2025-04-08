@@ -1,0 +1,21 @@
+{
+  "name": "apv-backend",
+  "version": "1.0.0",
+  "description": "Aprendiendo FullStack JS",
+  "license": "ISC",
+  "author": "Christian Arguello",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
